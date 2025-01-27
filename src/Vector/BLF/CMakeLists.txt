@@ -6,7 +6,7 @@
 include(GenerateExportHeader)
 
 # targets
-add_library(${PROJECT_NAME} SHARED "")
+add_library(${PROJECT_NAME} STATIC "")
 
 # search paths
 include_directories(
